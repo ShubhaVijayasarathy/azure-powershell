@@ -19,61 +19,66 @@
 -->
 ## Current Release
 
-## Version 0.1.0
-
-## Version 0.0.3
-* Future Breaking Change Notification: We've added a warning about removing property 'ResourceGroupName' from the returned NamespceAttributes from cmdlets New-AzureRmEventHubNamespace, Get-AzureRmEvnetHubNamespace and Set-AzureRmEvnetHubNamespace
-
-## Version 0.0.2
-
 ## Version 0.0.1
-* Adds commandlets for the Azure EventHub
+* Adds commandlets for the Azure Relay
 
-    - New-AzureRmEventHubNamespace
-        - Adds a New EventHub NameSpace in the existing Resource Group.
-    - Get-AzureRmEventHubNamespace
-        - Gets Eventhub NameSpace/list of NameSpaces of existing Resource Group.
-    - Set-AzureRmEventHubNamespace
-        - Updates properties of existing EventHub NameSpace.
-    - Remove-AzureRmEventHubNamespace
-        - Deletes the existing EventHub NameSpace.
-    - New-AzureRmEventHubNamespaceAuthorizationRule
-        - Adds a new AuthorizationRule to the existing EventHub NameSpace.
-    - Get-AzureRmEventHubNamespaceAuthorizationRule
-        - Gets AuthorizationRule / List of AuthorizationRules for the existing EventHub NameSpace.
-    - Set-AzureRmEventHubNamespaceAuthorizationRule
-        - Updates properties of existing AuthorizationRule of EventHub NameSpace.
-    - New-AzureRmEventHubNamespaceKey
-        - Generates a new Primary/Secondary Key for AuthorizationRule of existing EventHub NameSpace.
-    - Get-AzureRmEventHubNamespaceKey
-        - Gets Primary/Secondary Key for AuthorizationRule of existing EventHub NameSpace.
-    - Remove-AzureRmEventHubNamespaceAuthorizationRule
-        - Deletes the existing AuthorizationRule of EventHub NameSpace.
-    - New-AzureRmEventHub
-        - Adds a new EventHub to the existing NameSpace.
-    - Get-AzureRmEventHub
-        - Gets existing Queue/ List of EventHub of the existing NameSpace.
-    - Set-AzureRmEventHub
-        - Updates properties of existing EventHub of NameSpace.
-    - Remove-AzureRmEventHub
-        - Deletes existing EventHub of NameSpace.
-    - New-AzureRmEventHubAuthorizationRule
-        - Adds a new AuthorizationRule to the existing EventHub of NameSpace.
-    - Get-AzureRmEventHubAuthorizationRule
-        - Gets the AuthorizationRule / List of AuthorizationRules of the EventHub. 
-    - Set-AzureRmEventHubAuthorizationRule
-        - Updates the AuthorizationRule of the EventHub.
-    - New-AzureRmEventHubKey
-        - Generates a new Primary/Secondary Key for AuthorizationRule of existing EventHub.
-    - Get-AzureRmEventHubKey
-        - Gets Primary/Secondary Key for AuthorizationRule of existing EventHub.
-    - Remove-AzureRmEventHubAuthorizationRule
-        - Deletes the existing AuthorizationRule of EventHub.
-    - New-AzureRmEventHubConsumerGroup
-        - Adds a new ConsumerGroup to the existing EventHub
-    - Get-AzureRmEventHubConsumerGroup
-        - Gets existing ConsumerGroup/ List of ConsumerGroups of the existing EventHub.
-    - Set-AzureRmEventHubConsumerGroup
-        - Updates properties of existing ConsumerGroup of EventHub.
-    - Remove-AzureRmEventHubConsumerGroup
-        - Deletes existing ConsumerGroup of EventHub.
+    - New-AzureRmRelayNamespace
+        - Adds a New Relay NameSpace in the existing Resource Group.
+    - Get-AzureRmRelayNamespace
+        - Gets Relay NameSpace/list of NameSpaces of existing Resource Group.
+    - Set-AzureRmRelayNamespace
+        - Updates properties of existing Relay NameSpace.
+    - Remove-AzureRmRelayNamespace
+        - Deletes the existing Relay NameSpace.
+    - New-AzureRmRelayNamespaceAuthorizationRule
+        - Adds a new AuthorizationRule to the existing Relay NameSpace.
+    - Get-AzureRmRelayNamespaceAuthorizationRule
+        - Gets AuthorizationRule / List of AuthorizationRules for the existing Relay NameSpace.
+    - Set-AzureRmRelayNamespaceAuthorizationRule
+        - Updates properties of existing AuthorizationRule of Relay NameSpace.
+    - New-AzureRmRelayNamespaceKey
+        - Generates a new Primary/Secondary Key for AuthorizationRule of existing Relay NameSpace.
+    - Get-AzureRmRelayNamespaceKey
+        - Gets Primary/Secondary Key for AuthorizationRule of existing Relay NameSpace.
+    - Remove-AzureRmRelayNamespaceAuthorizationRule
+        - Deletes the existing AuthorizationRule of Relay NameSpace.
+    - New-AzureRmWcfRelay
+        - Adds a new WcfRelay to the existing NameSpace.
+    - Get-AzureRmWcfRelay
+        - Gets existing Queue/ List of WcfRelay of the existing NameSpace.
+    - Set-AzureRmWcfRelay
+        - Updates properties of existing WcfRelay of NameSpace.
+    - Remove-AzureRmWcfRelay
+        - Deletes existing WcfRelay of NameSpace.
+    - New-AzureRmWcfRelayAuthorizationRule
+        - Adds a new AuthorizationRule to the existing WcfRelay of NameSpace.
+    - Get-AzureRmWcfRelayAuthorizationRule
+        - Gets the AuthorizationRule / List of AuthorizationRules of the WcfRelay. 
+    - Set-AzureRmWcfRelayAuthorizationRule
+        - Updates the AuthorizationRule of the WcfRelay.
+    - New-AzureRmWcfRelayKey
+        - Generates a new Primary/Secondary Key for AuthorizationRule of existing WcfRelay.
+    - Get-AzureRmWcfRelayKey
+        - Gets Primary/Secondary Key for AuthorizationRule of existing WcfRelay.
+    - Remove-AzureRmWcfRelayAuthorizationRule
+        - Deletes the existing AuthorizationRule of WcfRelay.
+    - New-AzureRmRelayHybridConnections
+        - Adds a new HybridConnections to the existing NameSpace.
+    - Get-AzureRmRelayHybridConnections
+        - Gets existing HybridConnections/ List of HybridConnections of the existing NameSpace.
+    - Set-AzureRmRelayHybridConnections
+        - Updates properties of existing HybridConnections of NameSpace.
+    - Remove-AzureRmRelayHybridConnections
+        - Deletes existing HybridConnections of NameSpace.
+    - New-AzureRmRelayHybridConnectionsAuthorizationRule
+        - Adds a new AuthorizationRule to the existing HybridConnections of NameSpace.
+    - Get-AzureRmRelayHybridConnectionsAuthorizationRule
+        - Gets the AuthorizationRule / List of AuthorizationRules of the HybridConnections. 
+    - Set-AzureRmRelayHybridConnectionsAuthorizationRule
+        - Updates the AuthorizationRule of the HybridConnections.
+    - New-AzureRmRelayHybridConnectionsKey
+        - Generates a new Primary/Secondary Key for AuthorizationRule of existing HybridConnections.
+    - Get-AzureRmRelayHybridConnectionsKey
+        - Gets Primary/Secondary Key for AuthorizationRule of existing HybridConnections.
+    - Remove-AzureRmRelayHybridConnectionsAuthorizationRule
+        - Deletes the existing AuthorizationRule of HybridConnections.
