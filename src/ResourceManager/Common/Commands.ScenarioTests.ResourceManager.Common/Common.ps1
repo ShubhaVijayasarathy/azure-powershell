@@ -350,7 +350,7 @@ function getAssetName
     $stack = Get-PSCallStack
     $testName = getTestName
     
-    $assetName = [Microsoft.Azure.Test.HttpRecorder.HttpMockServer]::GetAssetName($testName, "onesdk")
+    $assetName = [Microsoft.Azure.Test.HttpRecorder.HttpMockServer]::GetAssetName($testName, "pwr")
 
     return $assetName
 }
