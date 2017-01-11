@@ -5,7 +5,7 @@
 
     ## Current Release
     * Overview of change #1
-        - Additional information about change #1
+        - Added EventHub - NameSpace, EventHub, and ConsumerGroup cmdlets #1
     * Overview of change #2
         - Additional information about change #2
         - Additional information about change #2
@@ -21,6 +21,7 @@
 
 ## Version 0.0.1
 * Adds commandlets for the Azure EventHub
+
     - New-AzureRmEventHubNamespace
         - Adds a New EventHub NameSpace in the existing Resource Group.
     - Get-AzureRmEventHubNamespace
