@@ -57,7 +57,7 @@ function ConsumerGroupsTests
 
 
     $location = Get-Location
-	$resourceGroupName = "Default-ServiceBus-WestUS"
+	$resourceGroupName = Get-ResourceGroupName
 	$namespaceName = Get-NamespaceName
 	$eventHubName = Get-EventHubName
 	$consumerGroupName = Get-ConsumerGroupName

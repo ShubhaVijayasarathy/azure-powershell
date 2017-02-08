@@ -59,7 +59,7 @@ function EventHubsTests
 {
     # Setup    
     $location = Get-Location
-    $resourceGroupName = "Default-ServiceBus-WestUS"
+    $resourceGroupName = Get-ResourceGroupName
 	$namespaceName = Get-NamespaceName
 	$eventHubName = Get-EventHubName
 
@@ -162,7 +162,7 @@ function EventHubsAuthTests
 {
     # Setup    
     $location =  Get-Location
-	$resourceGroupName = "Default-ServiceBus-WestUS"
+	$resourceGroupName = Get-ResourceGroupName
 	$namespaceName = Get-NamespaceName    
 	$eventHubName = Get-EventHubName	
     $authRuleName = Get-AuthorizationRuleName
