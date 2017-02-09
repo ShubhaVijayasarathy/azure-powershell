@@ -1,85 +1,85 @@
 ---
 Module Name: AzureRM.EventHub
 Module Guid: 5728d353-7ad5-42d8-b00a-46aaecf07b91
-Download Help Link: {{Please enter FwLink manually}}
-Help Version: {{Please enter version of help manually (X.X.X.X) format}}
+Download Help Link: None_Azure
+Help Version: 4.0.0.0
 Locale: en-US
 ---
 
 # AzureRM.EventHub Module
 ## Description
-{{Manually Enter Description Here}}
+This topic displays help topics for the Azure Event Hub cmdlets.
 
 ## AzureRM.EventHub Cmdlets
 ### [Get-AzureRmEventHub](Get-AzureRmEventHub.md)
-{{Manually Enter Get-AzureRmEventHub Description Here}}
+Gets an existing eventhub or list of eventhubs in an existing Event Hub namespace.
 
 ### [Get-AzureRmEventHubAuthorizationRule](Get-AzureRmEventHubAuthorizationRule.md)
-{{Manually Enter Get-AzureRmEventHubAuthorizationRule Description Here}}
+Gets an existing authorization rule or list of authorization rules in an existing eventhub.
 
 ### [Get-AzureRmEventHubConsumerGroup](Get-AzureRmEventHubConsumerGroup.md)
-{{Manually Enter Get-AzureRmEventHubConsumerGroup Description Here}}
+Gets an existing consumergroup or list of consumergroups in an existing eventhub.
 
 ### [Get-AzureRmEventHubKey](Get-AzureRmEventHubKey.md)
-{{Manually Enter Get-AzureRmEventHubKey Description Here}}
+Gets the primary or secondary key for an authorization rule in an existing eventhub.
 
 ### [Get-AzureRmEventHubNamespace](Get-AzureRmEventHubNamespace.md)
-{{Manually Enter Get-AzureRmEventHubNamespace Description Here}}
+Gets a namespace or list of namespaces in the existing resource group.
 
 ### [Get-AzureRmEventHubNamespaceAuthorizationRule](Get-AzureRmEventHubNamespaceAuthorizationRule.md)
-{{Manually Enter Get-AzureRmEventHubNamespaceAuthorizationRule Description Here}}
+Gets an existing authorization rule or list of authorization rules in an existing Event Hub namespace.
 
 ### [Get-AzureRmEventHubNamespaceKey](Get-AzureRmEventHubNamespaceKey.md)
-{{Manually Enter Get-AzureRmEventHubNamespaceKey Description Here}}
+Gets the primary or secondary key for an authorization rule in an existing Event Hub namespace.
 
 ### [New-AzureRmEventHub](New-AzureRmEventHub.md)
-{{Manually Enter New-AzureRmEventHub Description Here}}
+Adds a new eventhub to an existing Event Hub namespace.
 
 ### [New-AzureRmEventHubAuthorizationRule](New-AzureRmEventHubAuthorizationRule.md)
-{{Manually Enter New-AzureRmEventHubAuthorizationRule Description Here}}
+Adds a new authorization rule to an existing eventhub in a Event Hub namespace.
 
 ### [New-AzureRmEventHubConsumerGroup](New-AzureRmEventHubConsumerGroup.md)
-{{Manually Enter New-AzureRmEventHubConsumerGroup Description Here}}
+Adds a new consumergroup to an existing eventhub in a Event Hub namespace.
 
 ### [New-AzureRmEventHubKey](New-AzureRmEventHubKey.md)
-{{Manually Enter New-AzureRmEventHubKey Description Here}}
+Generates a new primary or secondary key for an authorization rule in an existing eventhub.
 
 ### [New-AzureRmEventHubNamespace](New-AzureRmEventHubNamespace.md)
-{{Manually Enter New-AzureRmEventHubNamespace Description Here}}
+Adds a new Event Hub namespace in the existing resource group.
 
 ### [New-AzureRmEventHubNamespaceAuthorizationRule](New-AzureRmEventHubNamespaceAuthorizationRule.md)
-{{Manually Enter New-AzureRmEventHubNamespaceAuthorizationRule Description Here}}
+Adds a new authorization rule to an existing Event Hub namespace.
 
 ### [New-AzureRmEventHubNamespaceKey](New-AzureRmEventHubNamespaceKey.md)
-{{Manually Enter New-AzureRmEventHubNamespaceKey Description Here}}
+Generates a new primary or secondary key for an authorization rule in an existing Event Hub namespace.
 
 ### [Remove-AzureRmEventHub](Remove-AzureRmEventHub.md)
-{{Manually Enter Remove-AzureRmEventHub Description Here}}
+Deletes an existing eventhub in a Event Hub namespace.
 
 ### [Remove-AzureRmEventHubAuthorizationRule](Remove-AzureRmEventHubAuthorizationRule.md)
-{{Manually Enter Remove-AzureRmEventHubAuthorizationRule Description Here}}
+Deletes an authorization rule of an existing eventhub in a Event Hub namespace.
 
 ### [Remove-AzureRmEventHubConsumerGroup](Remove-AzureRmEventHubConsumerGroup.md)
-{{Manually Enter Remove-AzureRmEventHubConsumerGroup Description Here}}
+Deletes an existing consumergroup of an eventhub.
 
 ### [Remove-AzureRmEventHubNamespace](Remove-AzureRmEventHubNamespace.md)
-{{Manually Enter Remove-AzureRmEventHubNamespace Description Here}}
+Deletes an existing Event Hub namespace.
 
 ### [Remove-AzureRmEventHubNamespaceAuthorizationRule](Remove-AzureRmEventHubNamespaceAuthorizationRule.md)
-{{Manually Enter Remove-AzureRmEventHubNamespaceAuthorizationRule Description Here}}
+Deletes an existing authorization rule in a Event Hub namespace.
 
 ### [Set-AzureRmEventHub](Set-AzureRmEventHub.md)
-{{Manually Enter Set-AzureRmEventHub Description Here}}
+Updates properties of an existing eventhub in a Event Hub namespace.
 
 ### [Set-AzureRmEventHubAuthorizationRule](Set-AzureRmEventHubAuthorizationRule.md)
-{{Manually Enter Set-AzureRmEventHubAuthorizationRule Description Here}}
+Updates properties of an existing authorization rule in a Event Hub namespace.
 
 ### [Set-AzureRmEventHubConsumerGroup](Set-AzureRmEventHubConsumerGroup.md)
-{{Manually Enter Set-AzureRmEventHubConsumerGroup Description Here}}
+Updates properties of an existing consumer group in a eventhub.
 
 ### [Set-AzureRmEventHubNamespace](Set-AzureRmEventHubNamespace.md)
-{{Manually Enter Set-AzureRmEventHubNamespace Description Here}}
+Updates properties of an existing Event Hub namespace.
 
 ### [Set-AzureRmEventHubNamespaceAuthorizationRule](Set-AzureRmEventHubNamespaceAuthorizationRule.md)
-{{Manually Enter Set-AzureRmEventHubNamespaceAuthorizationRule Description Here}}
+Updates properties of an existing authorization rule in a Event Hub namespace.
 
